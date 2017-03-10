@@ -1,6 +1,6 @@
 {
   "name": "react-notifications-immutable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Snackbar style notification component for React using Immutable.JS",
   "main": "dist/index.js",
   "scripts": {
