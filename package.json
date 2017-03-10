@@ -1,10 +1,10 @@
 {
   "name": "notifications-immutable",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Snackbar style notification component for React using Immutable.JS",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src -d dist"
+    "build": "./node_modules/.bin/babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -54,8 +54,5 @@
     "webpack": "^1.12.14",
     "webpack-dev-middleware": "^1.5.1",
     "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "babel-cli": "^6.23.0"
   }
 }
